@@ -16,8 +16,8 @@ import com.microsoft.azure.cosmosdb.spark.streaming._
 import java.time._
 
 val sourceConfigMap = Map(
-"Endpoint" -> "https://rainier.documents.azure.com:443/",
-"Masterkey" -> "lMdWMSAeooleaB5lRS1GhyoKly9lz8Q93kzo5GHBPyojroJilQD9PvK2qsQxh0n9uldn3ZULttsrRTGJL7u1lA==",
+"Endpoint" -> "[COSMOSDB ENDPOINT]",
+"Masterkey" -> "[MASTER KEY]",
 "Database" -> "seahawks",
 "Collection" -> "tweets",
 "ConnectionMode" -> "Gateway",
